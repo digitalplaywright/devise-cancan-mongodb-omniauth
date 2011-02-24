@@ -1,1 +1,4 @@
+
+apt-get install mongodb
+
 This is a quick and simple example of how you can use Devise with CanCan so an Admin(role) can manage Users.

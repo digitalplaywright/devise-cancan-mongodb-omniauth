@@ -8,3 +8,6 @@ gem 'bson_ext', '1.1.5', :require => false
 gem 'mongoid', '2.0.0.beta.20'
 gem 'devise', '1.1.5'
 gem 'cancan', '1.4.1'
+gem 'activerecord'
+gem 'gibbon'
+gem 'geocoder'
