@@ -7,4 +7,8 @@ DeviseRolesUserManagement::Application.routes.draw do
   resources :token_authentications, :only => [:create, :destroy]
   resources :user, :controller => "user"
   root :to => "dashboard#index"
+  get "welcome/index"
+  get "welcome/test"
+  get "welcome/sample_ajax"
+
 end
