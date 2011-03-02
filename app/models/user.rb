@@ -1,4 +1,5 @@
-class User
+class User 
+  include ActiveModel::Validations
   include Mongoid::Document
   #include MongoMapper::Document
   # Include default devise modules. Others available are:
