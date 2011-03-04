@@ -23,6 +23,10 @@ See the example omniauth configuration file '/config/initializers/omniauth.rb.ex
      provider :linked_in, 'CONSUMER_KEY', 'CONSUMER_SECRET'  
    end  
 
+Create your devise.rb file
+   cp ./config/initializers/devise.rb.example ./config/initializers/devise.rb
+Modify the file to your liking.
+
 Setup the database
 
 bundle install
