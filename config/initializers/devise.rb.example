@@ -139,4 +139,12 @@ Devise.setup do |config|
   #   end
   #   manager.default_strategies(:scope => :user).unshift :twitter_oauth
   # end
+  
+  # upgrade to rails 3.1 / devise 2.0.4
+  # help: https://github.com/plataformatec/devise/wiki/How-To:-Upgrade-to-Devise-2.0
+  config.case_insensitive_keys = [:email]
+  Devise.apply_schema = false
+  Devise.use_salt_as_remember_token = true
+  Devise.reset_password_within = 24.hours
+
 end

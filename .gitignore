@@ -3,3 +3,6 @@ db/*.sqlite3
 log/*.log
 tmp/**/*
 .redcar
+config/initializers/devise.rb
+config/initializers/omniauth.rb
+
