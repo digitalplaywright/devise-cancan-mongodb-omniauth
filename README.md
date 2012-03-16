@@ -10,22 +10,24 @@ Usage:
 
 [From the 10gen MongoDB Guide - Installing Ubuntu and Debian Packages](http://www.mongodb.org/display/DOCS/Ubuntu+and+Debian+packages)
 ```shell
-  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
-  sudo nano /etc/apt/sources.list
+  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10  
+  sudo nano /etc/apt/sources.list  
 ```
-Add the line, then save the file
+
+Add the line, then save the file.
+
 ```shell
-  deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen
-  sudo apt-get update 
-  sudo apt-get install mongodb-10gen
+  deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen  
+  sudo apt-get update  
+  sudo apt-get install mongodb-10gen  
 ```
 
 FOR UBUNTU EARLIER THAN 11.04
 
 [Install mongodb according to this guide](http://www.mongodb.org/display/DOCS/Ubuntu+and+Debian+packages)
-then
+then  
 ```shell
-  apt-get install libxml2-dev libxslt-dev
+  apt-get install libxml2-dev libxslt-dev  
 ```  
 
 ## 2. Create Initializers. ##
