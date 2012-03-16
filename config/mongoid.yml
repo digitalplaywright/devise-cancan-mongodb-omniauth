@@ -5,8 +5,6 @@ defaults: &defaults
   #     port: 27018
   #   - host: slave2.local
   #     port: 27019
-  username: justinschier
-  password: SnM1073k
 
 development:
   <<: *defaults
