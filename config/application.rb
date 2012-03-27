@@ -48,7 +48,14 @@ module DeviseRolesUserManagement
     config.generators do |g|
     g.orm :active_record
     end 
+
+
+	# upgrade to rails 3.1
+	config.assets.enabled = true
+	config.assets.version = '1.0'
+
   end
 end
+
 
 
