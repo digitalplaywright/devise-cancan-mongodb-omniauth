@@ -9,7 +9,7 @@ gem 'mongoid'
 gem 'cancan', '1.6.7'
 gem 'activerecord'
 gem 'gibbon', '0.3.5'
-gem 'geocoder', '1.1.1'
+gem 'geocoder', '1.6.1'
 gem 'devise', '2.0.4'
 gem 'omniauth', '1.0.3'
 
