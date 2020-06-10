@@ -46,11 +46,9 @@ GEM
       addressable (~> 2.2)
       multipart-post (~> 1.1)
       rack (~> 1.1)
-    geocoder (1.1.1)
+    geocoder (1.6.1)
     gibbon (0.3.5)
       httparty (> 0.6.0)
-      httparty (> 0.6.0)
-      json (> 1.4.0)
       json (> 1.4.0)
       rdoc
     hashie (1.2.0)
@@ -147,7 +145,7 @@ DEPENDENCIES
   bson_ext (= 1.6.1)
   cancan (= 1.6.7)
   devise (= 2.0.4)
-  geocoder (= 1.1.1)
+  geocoder (= 1.6.1)
   gibbon (= 0.3.5)
   mongo (= 1.6.1)
   mongoid
