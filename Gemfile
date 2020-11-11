@@ -11,7 +11,7 @@ gem 'activerecord'
 gem 'gibbon', '0.3.5'
 gem 'geocoder', '1.1.1'
 gem 'devise', '2.0.4'
-gem 'omniauth', '1.0.3'
+gem 'omniauth', '1.4.2'
 
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
